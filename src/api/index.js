@@ -1,6 +1,7 @@
 import axios from 'axios'
+import clients from './clients.js'
+import subscriptions from './subscriptions.js'
 
-axios.defaults.baseURL = 'http://45.141.101.186:8080/api';
+axios.defaults.baseURL = 'https://poledeluxe.by/api/api';
 
 const API = axios.create();
-

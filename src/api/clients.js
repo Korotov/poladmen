@@ -12,14 +12,14 @@ export default {
             console.log(error);
           });
     },
-    create(client) {
-      console.log("Client created: "+client);
-    },
-    update(id, params) {
-      console.log("Client update test");
-    },
-    delete(id){
-      console.log("Client update test");
-    }
+    // create(client) {
+    //   console.log("Client created: "+client);
+    // },
+    // update(id, params) {
+    //   console.log("Client update test");
+    // },
+    // delete(id){
+    //   console.log("Client delete "+id);
+    // },
 
 }

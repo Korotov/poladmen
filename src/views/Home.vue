@@ -1,15 +1,15 @@
 <template>
-  <clients-data-table />
+   <h1>Главная страница админки</h1>
 </template>
 
 <script>
 // @ is an alias to /src
-import ClientsDataTable from '@/components/models/ClientsDataTable.vue'
+
 
 export default {
   name: 'home',
   components: {
-    ClientsDataTable
+
   },
   created() {
     this.$store.dispatch('clients/getAllClients')
